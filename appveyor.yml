@@ -130,5 +130,5 @@ deploy:
   server: https://CIDemo:8172/msdeploy.axd
   website: http://CIDemo:80/
   username: CIDemo\perikart
-  password:$cred
+  password: ($cred)
   artifact: WebAppDemo.zip
