@@ -82,6 +82,9 @@ platform:
 configuration:
 #  - Debug
   - Release
+environment:
+  cred:
+    secure: llfHq/Tx/S+cERjwvZnDbA==
 
 build:
   project: WebAppDemo      # path to Visual Studio solution or project
@@ -130,5 +133,5 @@ deploy:
   server: https://CIDemo-b0251df1.southindia.cloudapp.azure.com:8172/msdeploy.axd
   website: Default Web Site
   username: CIDemo\perikart
-  password: $cred
+  password: ($cred)
   artifact: WebAppDemo.zip
