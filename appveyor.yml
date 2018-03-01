@@ -135,5 +135,4 @@ deploy:
   username: CIDemo\perikart
   password: 
     secure: llfHq/Tx/S+cERjwvZnDbA==
-
   artifact: WebAppDemo.zip
