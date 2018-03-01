@@ -130,5 +130,5 @@ deploy:
   server: https://CIDemo-b0251df1.southindia.cloudapp.azure.com:8172/msdeploy.axd
   website: http://CIDemo-b0251df1.southindia.cloudapp.azure.com:80/
   username: CIDemo\perikart
-  password: ($cred)
+  password: K@rth!k@13581
   artifact: WebAppDemo.zip
