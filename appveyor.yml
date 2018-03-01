@@ -125,3 +125,10 @@ artifacts:
 
   # pushing all *.nupkg files in directory
   #- path: out\*.nupkg
+deploy:
+- provider: WebDeploy
+  server: https://CIDemo:8172/msdeploy.axd
+  website: http://CIDemo:80/
+  username: CIDemo\perikart
+  password:$cred
+  artifact: WebAppDemo.zip
