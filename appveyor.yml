@@ -127,8 +127,8 @@ artifacts:
   #- path: out\*.nupkg
 deploy:
 - provider: WebDeploy
-  server: https://CIDemo:8172/msdeploy.axd
-  website: http://CIDemo:80/
+  server: https://CIDemo-b0251df1.southindia.cloudapp.azure.com:8172/msdeploy.axd
+  website: http://CIDemo-b0251df1.southindia.cloudapp.azure.com:80/
   username: CIDemo\perikart
   password: ($cred)
   artifact: WebAppDemo.zip
