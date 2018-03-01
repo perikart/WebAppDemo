@@ -128,7 +128,7 @@ artifacts:
 deploy:
 - provider: WebDeploy
   server: https://CIDemo-b0251df1.southindia.cloudapp.azure.com:8172/msdeploy.axd
-  website: CIDemo
+  website: "http://CIDemo:80/"
   username: CIDemo\perikart
   password: K@rth!k@13581
   artifact: WebAppDemo.zip
