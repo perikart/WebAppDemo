@@ -133,6 +133,6 @@ deploy:
   server: https://CIDemo-b0251df1.southindia.cloudapp.azure.com:8172/msdeploy.axd
   website: Default Web Site
   username: CIDemo\perikart
-  password: 
-    secure: llfHq/Tx/S+cERjwvZnDbA==
+  password:
+    secure: B9t8dHyfu2BQD0am0MnsfA==
   artifact: WebAppDemo.zip
